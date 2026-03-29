@@ -5,27 +5,36 @@ import { Calendar, MapPin, ChevronRight } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Front-End Development - Part Time",
-      company: "Datzon Technologies",
+      title: "JavaScript Developer",
+      company: "Pokak Technologies Pvt Ltd",
       location: "Remote",
-      period: "Feb 2025 - present",
-      description: "Led a team in developing ReactJS applications using Bootstrap, efficiently assigning tasks and ensuring project milestones were met.",
+      period: "Nov 2025 - Present",
+      description: "Leading the frontend migration and feature development for a large-scale ERP application using React.js, directly impacting daily enterprise workflows.",
       highlights: [
-        "Guided team members in troubleshooting and resolving bugs",
-        "Significantly improved code quality and reduced post-release issues",
-        "Collaborated with cross-functional stakeholders to streamline workflows"
+        "Engineering WebSocket modules to enable real-time data synchronization, reducing server load from polling and ensuring sub-second updates for users",
+        "Diagnosed and resolved 20+ critical bugs related to complex state management and rendering cycles, resulting in a 30% reduction in reported crash rates",
+        "Refactoring legacy codebases into modular, reusable components, significantly decreasing technical debt and accelerating sprint delivery times"
       ]
     },
     {
-      title: "Front-End Development - Intern",
-      company: "Duzo kriton PVT LTD",
+      title: "Full-Stack Developer",
+      company: "Datzon Eloqix Technologies",
+      location: "Remote/Hybrid",
+      period: "Feb 2025 - Oct 2025",
+      description: "Architecting scalable data flows for enterprise-level applications, utilizing Next.js for optimized server-side rendering.",
+      highlights: [
+        "Integrated Zustand for global state management, reducing boilerplate code by 40% compared to Redux and improving runtime performance",
+        "Establishing strict design patterns and code quality standards, ensuring long-term maintainability for a growing team of developers"
+      ]
+    },
+    {
+      title: "Front-End Development Intern",
+      company: "Duzo Kriton Pvt Ltd",
       location: "Remote",
       period: "Nov 2024 - Jan 2025",
-      description: "Converted Figma designs into a responsive React application using TypeScript, ensuring pixel-perfect UI fidelity.",
+      description: "Translated high-fidelity Figma designs into pixel-perfect, responsive TypeScript/React interfaces ensuring 100% cross-browser compatibility.",
       highlights: [
-        "Built modular and reusable React components",
-        "Maintained design consistency across devices",
-        "Implemented responsive design patterns for mobile, tablet, and desktop"
+        "Optimized Critical Rendering Path (CRP) metrics, improving First Contentful Paint (FCP) scores across mobile and desktop devices"
       ]
     }
   ];
