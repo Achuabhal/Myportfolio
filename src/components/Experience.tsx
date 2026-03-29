@@ -9,7 +9,7 @@ const Experience = () => {
       company: "Pokak Technologies Pvt Ltd",
       location: "Remote",
       period: "Nov 2025 - Present",
-      description: "Leading the frontend migration and feature development for a large-scale ERP application using React.js, directly impacting daily enterprise workflows.",
+      description: "Collaborated with the team on frontend migration and feature development for a large-scale ERP application using React.js, supporting daily enterprise workflows.",
       highlights: [
         "Engineering WebSocket modules to enable real-time data synchronization, reducing server load from polling and ensuring sub-second updates for users",
         "Diagnosed and resolved 20+ critical bugs related to complex state management and rendering cycles, resulting in a 30% reduction in reported crash rates",
