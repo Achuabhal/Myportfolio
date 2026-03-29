@@ -5,6 +5,19 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      title: "Government Authority Management System",
+      tech: ["CMS", "RBAC", "Version Control", "Workflows"],
+      description: "Developed a secure CMS with granular RBAC (Role-Based Access Control) for Admin, Lead, and Super Admin users. Implemented complex approval workflows with version control and restoration capabilities for high-volume content publishing.",
+      features: [
+        "Granular Role-Based Access Control (Admin, Lead, Super Admin)",
+        "Complex approval workflows",
+        "Version control for content publishing",
+        "Content restoration capabilities"
+      ],
+      githubUrl: "https://github.com/Achuabhal/-Government-Authority-Management-System.git",
+      liveUrl: "https://github.com/Achuabhal/-Government-Authority-Management-System.git"
+    },
+    {
       title: "Timetable Scheduling Web App for College",
       tech: ["React", "Firebase"],
       description: "Developed an intelligent algorithm that randomly assigns teachers to time slots without conflicts, streamlining college timetable management and increasing scheduling efficiency by 40%.",
@@ -52,14 +65,7 @@ const Projects = () => {
       githubUrl: "https://github.com/Achuabhal/edison.git",
       liveUrl: "https://idyllic-sorbet-500bd8.netlify.app/"
     },
-    {
-      title: "Interactive Digital Flipbook",
-      tech: ["React", "JavaScript", "CSS3", "HTML5"],
-      description: "Developed a responsive and feature-rich digital flipbook as a freelancing project to offer an engaging and intuitive document viewing experience.",
-      features: ["Realistic page-turning animations with synchronized audio", "Dynamic user controls including zoom, fullscreen mode, and page navigation", "Fully responsive layout compatible with all devices", "Smooth performance and accessible design"],
-      githubUrl: "https://github.com/Achuabhal/JACOBITE-SYRIAN-ORTHODOX-CHURCH.git",
-      liveUrl: "https://jacobite-syrian-orthodox-church.vercel.app/"
-    },
+
     {
       title: "Real-Time Social Messaging App",
       tech: ["React", "Vite", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT"],
